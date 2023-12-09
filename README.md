@@ -27,6 +27,8 @@ This Safari Web Extension allows you to configure redirection for any website us
 
 This extension is also available in App Store for a fee to cover App Store Account annual fee.
 
+<a href="https://apps.apple.com/us/app/page-redirect/id6474048733?mt=12&amp;itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1702080000" alt="Download on the Mac App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+
 # Privacy Policy
 This extension does not collect and share your data. The redirection rules configured by you are stored in your browser's local storage.
 
