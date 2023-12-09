@@ -15,6 +15,7 @@ This Safari Web Extension allows you to configure redirection for any website us
 |-----------------------------------------	|-----------------------------------	|-------------------------------------------	|
 | Wikipedia Homepage -> English Wikipedia 	| `https://(www\.)?wikipedia\.org$` 	| `https://en.wikipedia.org/wiki/Main_Page` 	|
 | Facebook Homepage -> Facebook Groups    	| `https://www.facebook.com$`       	| `https://www.facebook.com/groups/feed/`   	|
+| Youtube -> Invidious                  	| `https://www.youtube.com/watch\?v=(\w{11})`| `https://yewtu.be//watch?v=$1`           |
 | Twitter -> New York Times               	| `https://twitter.com/home`        	| `https://www.nytimes.com`                 	|
 
 
