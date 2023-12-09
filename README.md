@@ -12,9 +12,9 @@ This Safari Web Extension allows you to configure redirection for any website us
 # Example redirection rules
 |                                         	| Origin                          	| Destination                             	|
 |-----------------------------------------	|---------------------------------	|-----------------------------------------	|
-| Wikipedia Homepage -> English Wikipedia 	| https://(www\.)?wikipedia\.org$ 	| https://en.wikipedia.org/wiki/Main\_Page 	|
-| Facebook Homepage -> Facebook Groups    	| https://www.facebook.com$       	| https://www.facebook.com/groups/feed/   	|
-| Twitter -> New York Times               	| https://twitter.com/home        	| https://www.nytimes.com                 	|
+| Wikipedia Homepage -> English Wikipedia 	| `https://(www\.)?wikipedia\.org$` 	| `https://en.wikipedia.org/wiki/Main_Page` 	|
+| Facebook Homepage -> Facebook Groups    	| `https://www.facebook.com$`       	| `https://www.facebook.com/groups/feed/`   	|
+| Twitter -> New York Times               	| `https://twitter.com/home`        	| `https://www.nytimes.com`                 	|
 
 
 # Installation
