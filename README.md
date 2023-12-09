@@ -5,13 +5,14 @@ This Safari Web Extension allows you to configure redirection for any website us
 - Per-page auto-redirection control. You can have page auto-redirected in the background or manually by clicking the extension icon.
 - Clicking a page that has no pre-existing redirection configuration triggers Options page.
 - Directly test your matching rules on the Options page.
+- Command+Shift+L to trigger manual redirection
 - Advanced features:
   - Use regular expressions and capture groups for powerful matching rules.
   - Use $1, $2, etc. in the destination URL to reference captured groups.
 
 # Example redirection rules
-|                                         	| Origin                          	| Destination                             	|
-|-----------------------------------------	|---------------------------------	|-----------------------------------------	|
+|                                         	| Origin                            	| Destination                               	|
+|-----------------------------------------	|-----------------------------------	|-------------------------------------------	|
 | Wikipedia Homepage -> English Wikipedia 	| `https://(www\.)?wikipedia\.org$` 	| `https://en.wikipedia.org/wiki/Main_Page` 	|
 | Facebook Homepage -> Facebook Groups    	| `https://www.facebook.com$`       	| `https://www.facebook.com/groups/feed/`   	|
 | Twitter -> New York Times               	| `https://twitter.com/home`        	| `https://www.nytimes.com`                 	|
