@@ -42,13 +42,6 @@ export default function makeManifest(config: { contentScriptCssKey?: string }): 
     fs.writeFileSync(manifestPath, ManifestParser.convertManifestToString(manifest));
 
     colorLog(`Manifest file copy complete: ${manifestPath}`, 'success');
-
-    const xcodeproj = resolve(rootDir, '..', 'Page Redirect', 'Page Redirect.xcodeproj');
-    const child = exec(`xcodebuild -scheme "Page Redirect" -project "${xcodeproj}" build`);
-
-    child.on('close', code => {
-      console.log(`xcodebuild process exited with code ${code}`);
-    });
   }
 
   return {
