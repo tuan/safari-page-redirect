@@ -17,8 +17,8 @@ This Safari Web Extension allows you to configure redirection for any website us
 | Facebook Homepage -> Facebook Groups    	| `https://www.facebook.com$`       	| `https://www.facebook.com/groups/feed/`   	|
 | Youtube -> Invidious                  	| `https://www.youtube.com/watch\?v=(\w{11})`| `https://yewtu.be/watch?v=$1`           |
 | Twitter -> New York Times               	| `https://twitter.com/home`        	| `https://www.nytimes.com`                 	|
-| `@reddit` to search `site:reddit.com`     | `^https://www.google.com/search\?.*q=(.+?)\+?(?:%40|&)reddit\b` | `https://www.google.com/search?q=$1 site:reddit.com` |
-| `@hn` to search hackernews | ` ^https://www.google.com/search\?.*q=(.+?)\+?(?:%40|&)hn\b ` | `https://www.google.com/search?q=$1 site:news.ycombinator.com` |
+| `@reddit` to search reddit.com     | `^https://www.google.com/search\?.*q=(.+?)\+?(?:%40\|&)reddit\b` | `https://www.google.com/search?q=$1 site:reddit.com` |
+| `@hn` to search hackernews | `^https://www.google.com/search\?.*q=(.+?)\+?(?:%40\|&)hn\b` | `https://www.google.com/search?q=$1 site:news.ycombinator.com` |
 
 
 # Installation
